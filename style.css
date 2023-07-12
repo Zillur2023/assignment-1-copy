@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* common class */
+.primary {
+    color: gray;
+}
+.common-title {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    padding: 15px 25px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.common-color {
+    color: red;}
+/* style for bannner-container */
+ 
+.banner-container {
+    
+    background-color: #dfd8d9;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    
+}
+.banner-text {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    align-items: center;
+}
+.banner-title {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-description {
+    padding: 20px 0;
+}
+.banner-photo {
+    width: 500px;
+    height: 650px;
+    align-items: center;
+
+}
+.banner-img {
+    width: 500px;
+    height: 651px;
+    
+}
+/*Featured Flower style  */
+.flower-descrition {
+    text-align: center;
+    padding: 50px;
+}
+.flower-trees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pink-tree {
+    width: 290px;
+    height: 250px;
+    padding-top: 90px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px ;
+    text-align: center;
+    
+}
+.flower-img {
+    width: 200px;
+    height: 250px;
+    
+    
+}
+.flower-name {
+    text-align: center;
+    text-decoration: underline;
+}
+/* branch-container style */
+.branch-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.branch-text {
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+}
+.branch {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #f39d9d ;
+    box-shadow: 0px 6px 50px 0px rgba(3, 3, 3, 0.06);
+    text-align: center;
+
+}
+.branch-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+/* Optional section */
+.optional-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #eeeded;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.optional-container{
+    padding: 40px;
+    text-align: center;
+}
+.optional-text {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+/* Hot Deal container style */
+.flowertop-container {
+    background-color:  #eeeded ;
+    width: 100vw;
+    height: 350px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.flower-text {
+    width: 400px;
+    text-align: center;
+}
+
+.top-img {
+    width: 200px;
+    height: 250px;
+}
+/* Instragram section style */
+.instragram {
+    text-align: center;s
+    padding: 30px;
+}
+.flowerpic-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.flower {
+    width: 260px;
+    height: 300px;
+}
+.flower-pic {
+    width: 350px;
+    height: 300px;
+    
+    
+}
+/* latest deals style */
+.latest-deals {
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+.latest-text {
+   text-align: center;
+
+}
+.email {
+    border: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    width:300px;
+    
+}
+/* Footer-container style */
+.footer-container {
+    width: 100vw;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flower-shop {
+    
+    width: 400px;
+    text-align: center;
+}
